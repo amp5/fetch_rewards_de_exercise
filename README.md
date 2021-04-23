@@ -14,7 +14,7 @@ To calculate similarity this program ulitizes a token-based approach to find sim
 Below is the formula for the Jaccard index as referenced from this [article](https://itnext.io/string-similarity-the-basic-know-your-algorithms-guide-3de3d7346227):
 
 
-
+![Jaccard Index](https://user-images.githubusercontent.com/5368361/115926550-df36d000-a437-11eb-86a8-25bea8dfbb0d.png)
 
 
 I've chosen to create a simple caluclation as well as detail a more robust calculation below. The simple calculation is merely counting each distinct word in each text and comparing the two to see how many words and word frequencies overlap. A more robust calculation that might be used to better understand patterns in the data would factor out common stop words (i.e. "I", "or", "the", "to"), potentially stem words (i.e. "buy" and "buy(ing)" would be counted as buy) as well as either removing numbers or replacing numbers with string versions of numbers. 
