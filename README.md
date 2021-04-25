@@ -18,7 +18,7 @@ Included in this git repo is a program that takes as inputs two texts and uses a
  ## 1. Run Locally
  - Ensure you are inside the web folder ``` cd web```
  - [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) if you don't already have this on your machine
- - Run ```virtualenv env```
+ - Run ```python3 -m venv env```
  - Activate your virtual environment ```source env/bin/activate```
  - Install requirements for the program ```pip install -r requirements.txt```
  - Run the flask app ```flask run``` 
