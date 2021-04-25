@@ -1,9 +1,27 @@
 # fetch_rewards_de_exercise
 Coding challenge for Fetch Rewards
 
+
+Included in this git repo is a program that takes as inputs two texts and uses a metric to determine how similar they are using a 0.0 - 1.0 scale. A score of 0 meaning no similarity and a score of 1 meaning the two texts are exactly the same. The program is built using Python, Flask and Docker. 
+
 # Getting Started
- To run this program begin by cloning this GitHub repo:
+ To run this program:
+ 
+ - Create a folder to store this repo locally 
+ ``` mkdir applicant_program```
+ 
+ - Clone this GitHub repo:
  ``` git clone https://github.com/amp5/fetch_rewards_de_exercise.git ```
+
+ - Determine if you want to run this locally using just Flask or want to run this using Docker Hub
+
+ ## Run Locally
+
+ ## Run via Docker
+
+
+
+
 
 
 ## Determining the metric for similarity
