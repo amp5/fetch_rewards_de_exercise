@@ -42,7 +42,7 @@ Your browser should display the following program:
 ![Image of web app](https://user-images.githubusercontent.com/5368361/116004030-bfc5b180-a5b5-11eb-9202-1721b5dc14d2.png)
 
 
-## Determining the metric for similarity
+# Determining the metric for similarity
 Given that the coding exercise directions talked only about how many words both texts had in common as the definition for similarity and doesn't get into the specifics on how this metric might be used, this program's calculation does not factor in the following:
 
 - The difference between upper and lower case text. (i.e "hello world" vs "Hello World" have 2 words in common).
@@ -57,7 +57,7 @@ Below is the formula for the Jaccard index as referenced from this [article](htt
 
 ![Jaccard Index](https://user-images.githubusercontent.com/5368361/115926550-df36d000-a437-11eb-86a8-25bea8dfbb0d.png)
 
-# Similarity metric 2.0
+## Similarity metric 2.0
 A more robust, perhaps future refactorization of this metric could include the removal of stop words (i.e. "I", "or", "the", "to") as well as stemming the inputs (i.e. "buy" and "buy(ing)" would be counted as buy).
 
 ## Potential Use Cases
