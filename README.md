@@ -1,7 +1,12 @@
 # fetch_rewards_de_exercise
 Coding challenge for Fetch Rewards
 
-### Determining the metric for similarity
+# Getting Started
+ To run this program begin by cloning this GitHub repo:
+ ``` git clone https://github.com/amp5/fetch_rewards_de_exercise.git ```
+
+
+## Determining the metric for similarity
 Given that the coding exercise directions talked only about how many words both texts had in common as the definition for similarity and doesn't get into the specifics on how this metric might be used, this program's calculation does not factor in the following:
 
 - The difference between upper and lower case text. (i.e "hello world" vs "Hello World" have 2 words in common)
@@ -20,6 +25,8 @@ Below is the formula for the Jaccard index as referenced from this [article](htt
 
 A more robust, perhaps future refactorization of this metric could include the removal of stop words (i.e. "I", "or", "the", "to") as well as stemming the inputs (i.e. "buy" and "buy(ing)" would be counted as buy).
 
-### Potential Use Case
+## Potential Use Case
 - Identifying for example duplicate or fake reviews for Fetch Rewards on Google Play or the iTunes store. 
 - Identifying similar receipts (this step would most likely be post image processing). For example identifying clothing receipts compared to grocery receipts.
+
+

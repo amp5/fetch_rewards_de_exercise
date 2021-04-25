@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <form action="/" method="POST">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Input Text 1</label>
+            <textarea type="text" name="input1" class="form-control" id="input1" rows="3"}>{{input1}}</textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Input Text 2</label>
+            <textarea type="text" name="input2" class="form-control" id="input2" rows="3">{{input2}}</textarea>
+          </div>
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Similarity Score:
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{score}}</h5>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
